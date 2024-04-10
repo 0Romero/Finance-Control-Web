@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Budget Buddy",
+  title: "Finance Control",
   description: "Um app de controle de gastos pessoais",
 };
 

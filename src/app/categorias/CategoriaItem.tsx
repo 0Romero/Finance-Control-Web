@@ -5,8 +5,8 @@ import { Apple, ChevronDown } from "lucide-react";
 interface CategoriaItemProps{
     categoria: {
         id: number,
-        nome: string,
-        icone: string
+        name: string,
+        icon: string
     }
 }
 
@@ -14,8 +14,8 @@ export function CategoriaItem({categoria}: CategoriaItemProps) {
     return (
         <div className="flex justify-between">
             <div className="flex gap-2 items-center">
-                <Icon name={categoria.icone} />
-                <span>{categoria.nome}</span>
+                <Icon name={categoria.icon} />
+                <span>{categoria.name}</span>
             </div>
             <DropdownAction />
         </div>
